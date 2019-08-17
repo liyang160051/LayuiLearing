@@ -1,0 +1,21 @@
+1.layui下载：https://www.layui.com/
+  css
+  font
+  images
+  lay  分模块管理的js
+  layui.all.js  默认引入所有js
+                var layer = layui.layer;
+				var laydate = layui.laydate;
+				var table = layui.table;
+				var form = layui.form;
+  layui.js  默认不引人，如果用户要引入，则需要手动去引入
+            layui.use(['layer', 'laydate', 'table', 'form'], function(){
+			    var layer = layui.layer;
+				var laydate = layui.laydate;
+				var table = layui.table;
+				var form = layui.form;
+			}
+
+2.按钮
+3.布局
+4.选项卡
